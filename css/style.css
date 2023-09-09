@@ -132,6 +132,7 @@
 .first_box .Newsletter {
     margin-top: 55px;
     margin-right: 70px;
+
 }
 
 .first_box .Newsletter h1 {
@@ -140,6 +141,7 @@
 
 .first_box .Newsletter form {
     margin-bottom: 65px;
+    display: flex;
 }
 
 .first_box .Newsletter #e-mail {
@@ -268,5 +270,24 @@ color: #fff;
     .menu_filtro .qt_produtos{
         margin-left: auto;
     }
+
+    .first_box .Newsletter #e-mail {
+    width: auto;
+    height: 54px;
+    }
+    
+    .first_box .Newsletter #botao_inscrever {
+    width: auto;
+    height: 58px;
+    }
+
+    .second_box .social_media {
+        margin: auto;
+    }
+
+    .second_box .payments {
+        margin: auto;
+    }
+
 }
 
