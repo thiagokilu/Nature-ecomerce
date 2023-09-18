@@ -152,7 +152,7 @@ width: 397px;
 height: 54px;
 }
 
-.first_box .Newsletter #botao_inscrever {
+.first_box .Newsletter .botao {
     background: #51B248;
     border-radius: 0px 5px 5px 0px;
     border: none;
@@ -187,7 +187,149 @@ color: #fff;
 .second_box .payments .icon {
     margin-left: 24px;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 820px) {
+    body {
+        overflow-x: hidden;
+    }
+
+        .nav #menu_nav {
+            display: none;
+        }
+        #burguer {
+            display: block;
+        }
+        #burguer {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+ 
+        .mobile-menu {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff;
+            position: absolute;
+            top: auto;
+            right: 0;
+            width: 50vw;
+            height: 92vh;
+            z-index: 999;
+            justify-content: space-around;
+            
+        }
+        .mobile-menu a{
+            text-decoration: none;
+            color: #161616;
+        }
+        .mobile-menu ul {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+        .mobile-menu li {
+            display: block;
+            padding-top: 8vh;
+        }
+
+        .open {
+            display: block;
+        }
+    
+        .nav .icons img {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+    .conteudo {
+        padding: 0;
+    }
+
+    .cabecalho img {
+        width: 300px;
+    }
+    .conteudo .produto {
+        margin: 10px;
+    }
+
+    .conteudo .produto img {
+        width: 100%;
+    }
+
+    .conteudo h1 {
+        font-size: 18px;
+    }
+
+    .conteudo .produto .titulo_produto {
+        font-size: 15px;
+    }
+
+    .conteudo .produto .valor_produto{
+        font-size:15px;
+    }
+
+    .menu_filtro .qt_produtos{
+        margin-left: auto;
+    }
+
+    .first_box {
+        align-items: center;
+    }
+
+    .first_box .Newsletter {
+        margin-right: 0;
+    }
+
+    .first_box .links {
+        margin-top: 33px;
+        margin-left: 33px;
+        margin-bottom: 54px;
+    }
+
+    .rodape .first_box {
+        flex-direction: column;
+    }
+
+    .Newsletter {
+        display: flex;
+        align-items: center;
+        width: 346px;
+        flex-direction: column;
+        margin-right: 0;
+        
+    }
+
+    .Newsletter .form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Newsletter .form .e-mail {
+        width: 300px;
+        height: 43px;
+        margin-bottom: 17px;
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    .Newsletter .form .botao {
+        width: 300px;
+        height: 43px;
+        font-size: 16px;
+    }
+
+
+    .second_box .social_media {
+        margin: auto;
+    }
+
+    .second_box .payments {
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 500px) {
     body {
         overflow-x: hidden;
     }
@@ -252,7 +394,7 @@ color: #fff;
     }
 
     .conteudo .produto img {
-        width: 150px;
+        width: 200px;
     }
 
     .conteudo h1 {
@@ -271,15 +413,52 @@ color: #fff;
         margin-left: auto;
     }
 
-    .first_box .Newsletter #e-mail {
-    width: auto;
-    height: 54px;
+    .first_box {
+        align-items: center;
     }
-    
-    .first_box .Newsletter #botao_inscrever {
-    width: auto;
-    height: 58px;
+
+    .first_box .Newsletter {
+        margin-right: 0;
     }
+
+    .first_box .links {
+        margin-top: 33px;
+        margin-left: 33px;
+        margin-bottom: 54px;
+    }
+
+    .rodape .first_box {
+        flex-direction: column;
+    }
+
+    .Newsletter {
+        display: flex;
+        align-items: center;
+        width: 346px;
+        flex-direction: column;
+        margin-right: 0;
+        
+    }
+
+    .Newsletter .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Newsletter .form .e-mail {
+        width: 300px;
+        height: 43px;
+        margin-bottom: 17px;
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    .Newsletter .form .botao {
+        width: 300px;
+        height: 43px;
+        font-size: 16px;
+    }
+
 
     .second_box .social_media {
         margin: auto;
